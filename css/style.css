@@ -126,6 +126,26 @@ button.close {
     border: 2px solid #333;
     transform: scale(1.5);
 }
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #0074b8;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f04f52;
+    font-weight: bold;
+}
+@media (min-width: 768px){
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
 @media(max-width: 1199px) {
     .header-logo {
         width: 260px;

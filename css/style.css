@@ -148,6 +148,9 @@ button.close {
 .main-title, .main-title-text {
     text-align: center;
 }
+.main-title {
+    margin-bottom: 25px;
+}
 .catalog-item {
     display: flex;
     flex-direction: column;

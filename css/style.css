@@ -8,6 +8,120 @@ a, button {
     transition: all .3s linear;
 }
 a:hover {
-    color: #f08a14;
+    color: #f04f52;
     text-decoration: none;
+}
+.header-row-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.header-logo {
+    width: 300px;
+}
+.header-logo img {
+    width: 100%;
+}
+.header-time {
+    display: flex;
+    align-items: center;
+}
+.header-time i {
+    color: #f04f52;
+    font-size: 40px;
+    margin-right: 10px;
+}
+.header-time-text span {
+    font-size: 16px;
+    display: block;
+}
+.header-contact a {
+    color: #0074b8;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+}
+.header-contact a:hover {
+    color: #f04f52;
+}
+.header-page-block {
+    border-bottom: 2px solid #eef0f1;
+}
+.header-time-text {
+    font-size: 20px;
+}
+button.close {
+    position: relative;
+    right: 3px;
+    top: 1px;
+    z-index: 1;
+}
+.owl-feedback-form {
+    text-align: center;
+    border: 2px solid #0074b8;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.owl-feedback-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+.owl-feedback-form a, .header-btn button {
+    background-color: #0074b8;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #0074b8;
+    border-radius: 4px;
+    display: block;
+}
+.owl-feedback-form a:hover, .header-btn button:hover {
+    background-color: #fff;
+    color: #0074b8;
+}
+
+@media(max-width: 1199px) {
+    .header-logo {
+        width: 260px;
+    }
+    .header-time-text {
+        font-size: 18px;
+    }
+    .header-contact a {
+        font-size: 20px;
+    }
+}
+@media(max-width: 991px) {
+    .header-row-flex {
+        flex-wrap: wrap;
+    }
+    .header-contact {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+@media(max-width: 767px) {
+    .header-logo {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 469px) {
+    .header-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .header-row-flex {
+        justify-content: center;
+    }
+    .header-time {
+        margin-bottom: 15px;
+    }
 }

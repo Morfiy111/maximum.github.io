@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Окна Максимум</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- Предупреждение: Respond.js не работает при просмотре страницы через файл:// -->
     <!--[if lt IE 9]>
@@ -17,9 +20,51 @@
     <![endif]-->
 </head>
 <body>
-<h1>Привет, Люда!</h1>
-
+<header class="header-page-block">
+    <div class="container">
+        <div class="header-row-flex">
+            <div class="header-logo">
+                <a href="/"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="header-time">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <div class="header-time-text">
+                    Пн-пт: с 09.00 до 18.00,<br>сб: до 14:00, вс - выходной
+                    <span>Курск, ул. Сумская, 36</span>
+                </div>
+            </div>
+            <div class="header-btn">
+                <button data-toggle="modal" data-target="#modal-send">Написать нам</button>
+            </div>
+            <div class="header-contact">
+                <a href="tel:551751">+7 (4712) 55-17-51</a>
+                <a href="tel:+79065736510">+7 (906) 573-65-10</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="modal fade" id="modal-send" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="modal-body">
+                <div class="owl-feedback-form">
+                    <h3>Появились вопросы?</h3>
+                    <p>Мы с удовольствием ответим на них!</p>
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="text" placeholder="Телефон">
+                    <input type="text" placeholder="email">
+                    <a href="#">Отправить заявку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

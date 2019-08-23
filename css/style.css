@@ -220,6 +220,9 @@ button.close {
 .modal-body td {
     padding: 5px;
 }
+.owl-carousel2 {
+    margin: 40px 0;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;

@@ -7,6 +7,9 @@ body {
 a, button {
     transition: all .3s linear;
 }
+a {
+    color: #0074b8;
+}
 a:hover {
     color: #f04f52;
     text-decoration: none;
@@ -17,10 +20,10 @@ a:hover {
     align-items: center;
     padding: 15px 0;
 }
-.header-logo {
+.header-logo, .footer-logo {
     width: 300px;
 }
-.header-logo img {
+.header-logo img, .footer-logo img{
     width: 100%;
 }
 .header-time {
@@ -191,6 +194,31 @@ button.close {
     text-align: center;
     font-weight: bold;
 }
+.footer-page-block {
+    padding: 40px 0;
+    background-color: #f3f8fa;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-links:last-child {
+    text-align: right;
+}
+.footer-links a {
+    display: block;
+    text-decoration: none;
+}
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright p {
+    font-size: 12px;
+}
+.modal-body td {
+    padding: 5px;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;
@@ -199,7 +227,7 @@ button.close {
     }
 }
 @media(max-width: 1199px) {
-    .header-logo {
+    .header-logo, .footer-logo {
         width: 260px;
     }
     .header-time-text {
@@ -218,11 +246,39 @@ button.close {
         text-align: center;
         margin-top: 15px;
     }
+    .catalog-item {
+        width: 32%;
+    }
 }
 @media(max-width: 767px) {
-    .header-logo {
+    .header-logo, .footer-logo {
         width: 100%;
         margin-bottom: 15px;
+    }
+    .catalog-item {
+        width: 48%;
+    }
+    .main-contact-flex {
+        flex-direction: column;
+    }
+    .main-contact-flex a {
+        width: 100%;
+    }
+    .footer-flex {
+        flex-direction: column;
+    }
+    .footer-links:last-child {
+        text-align: left;
+    }
+    .navbar-toggle {
+        margin: 10px 0;
+        background-color: #0074b8;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #0074b8;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
     }
 }
 @media(max-width: 469px) {
@@ -237,4 +293,12 @@ button.close {
     .header-time {
         margin-bottom: 15px;
     }
+    .catalog-item {
+        width: 100%;
+    }
+    .catalog-title {
+        height: auto;
+    }
+
+
 }

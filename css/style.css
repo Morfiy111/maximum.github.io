@@ -139,6 +139,9 @@ button.close {
     color: #f04f52;
     font-weight: bold;
 }
+.main-title, .main-title-text {
+    text-align: center;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;

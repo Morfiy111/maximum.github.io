@@ -209,6 +209,7 @@ button.close {
 .footer-links a {
     display: block;
     text-decoration: none;
+    font-weight: bold;
 }
 .footer-copyright {
     text-align: center;

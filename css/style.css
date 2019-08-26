@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #4d4d4d;
     font-size: 16px;
     line-height: 1.62;
@@ -226,6 +226,56 @@ button.close {
 .owl-carousel2 {
     margin: 40px 0;
 }
+.service-img-block {
+    text-align: center;
+}
+.service-img-block img {
+    width: 60%;
+}
+.service-price-table-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: flex-end;
+}
+.service-row-title {
+    width: 70%;
+}
+.service-row-price {
+    width: 30%;
+}
+.service-price-table-block {
+    margin: 40px 0;
+}
+.service-row-title-bold {
+    text-align: center;
+    font-weight: bold;
+}
+.service-price-table-row-blue {
+    background-color: #f3f8fa;
+}
+.service-row-price {
+    text-align: center;
+}
+.montage-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.montage-block-img {
+    width: 46%;
+}
+.montage-block-img img {
+    width: 100%;
+}
+.montage-block-desk {
+    width: 49%;
+    font-size: 20px;
+}
+.balkon-type img {
+    width: 100%;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;
@@ -286,6 +336,18 @@ button.close {
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff;
+    }
+    .service-img-block img {
+        width: 100%;
+    }
+    .montage-block {
+        flex-wrap: wrap;
+    }
+    .montage-block-img {
+        width: 100%;
+    }
+    .montage-block-desk {
+        width: 100%;
     }
 }
 @media(max-width: 469px) {

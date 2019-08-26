@@ -78,7 +78,7 @@ button.close {
     border: 1px solid rgba(122, 122, 122, 0.25);
     border-radius: 2px;
 }
-.owl-feedback-form a, .header-btn button, .main-site-btn {
+.owl-feedback-form a, .header-btn button, .main-site-btn, .service-btn {
     background-color: #0074b8;
     padding: 10px;
     color: #fff;
@@ -275,6 +275,11 @@ button.close {
 }
 .balkon-type img {
     width: 100%;
+}
+.btn-service-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 @media (min-width: 768px){
     .navbar-nav {

@@ -281,6 +281,72 @@ button.close {
     justify-content: center;
     margin-top: 20px;
 }
+.mosquito-netting-img img {
+    width: 100%;
+}
+.mosquito-netting-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.mosquito-netting-img {
+    width: 22%;
+}
+.mosquito-netting-desk {
+    width: 76%;
+}
+.accessories-mosquito-netting {
+    margin-bottom: 30px;
+}
+.accessories-mosquito-netting h3 {
+    margin-bottom: 20px;
+}
+.mosquito-netting-desk .btn-service-block {
+    justify-content: flex-start;
+}
+.windowsill-block {
+    margin: 40px 0;
+}
+.windowsill-block h4 {
+    font-weight: bold;
+}
+.windowsill-block .free-service-item {
+    align-items: flex-start;
+}
+.table-price-content {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.table-price-content td {
+    padding: 8px;
+}
+.table-price-content td:hover {
+    background-color: #f3f8fa;
+}
+#button-up {
+    display: none;
+    right: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    width: 56px;
+    color: #333333;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0px 0 0 28px;
+    background: url("../images/scrolltop.png") no-repeat 7px 11px transparent;
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    z-index: 9;
+}
+#button-up span {
+    display: block;
+    width: 56px;
+    height: 66px;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;
@@ -354,6 +420,12 @@ button.close {
     .montage-block-desk {
         width: 100%;
     }
+    .mosquito-netting-img {
+        width: 44%;
+    }
+    .mosquito-netting-desk {
+        width: 52%;
+    }
 }
 @media(max-width: 469px) {
     .header-btn {
@@ -373,6 +445,19 @@ button.close {
     .catalog-title {
         height: auto;
     }
-
-
+    .table-price-content td {
+        padding: 2px;
+    }
+    .table-price-content {
+        width: 10px;
+    }
+    .mosquito-netting-flex {
+        flex-wrap: wrap;
+    }
+    .mosquito-netting-img, .mosquito-netting-desk {
+        width: 100%;
+    }
+    .mosquito-netting-img {
+        margin-bottom: 10px;
+    }
 }

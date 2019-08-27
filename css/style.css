@@ -289,10 +289,10 @@ button.close {
     justify-content: space-between;
 }
 .mosquito-netting-img {
-    width: 22%;
+    width: 24%;
 }
 .mosquito-netting-desk {
-    width: 76%;
+    width: 74%;
 }
 .accessories-mosquito-netting {
     margin-bottom: 30px;
@@ -346,6 +346,12 @@ button.close {
     display: block;
     width: 56px;
     height: 66px;
+}
+.modal-ral {
+    width: 100%;
+}
+.table-price-content a {
+    cursor: pointer;
 }
 @media (min-width: 768px){
     .navbar-nav {
@@ -459,5 +465,8 @@ button.close {
     }
     .mosquito-netting-img {
         margin-bottom: 10px;
+    }
+    .table-aluminium {
+        width: 100%;
     }
 }

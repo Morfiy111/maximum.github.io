@@ -369,6 +369,12 @@ button.close {
 .galery-item img {
     width: 100%;
 }
+.image-banner-page img {
+    width: 100%;
+}
+.image-banner-page {
+    margin-bottom: 40px;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;

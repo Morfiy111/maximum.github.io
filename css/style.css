@@ -301,6 +301,7 @@ button.close {
 }
 .mosquito-netting-img {
     width: 24%;
+    position: relative;
 }
 .mosquito-netting-desk {
     width: 74%;

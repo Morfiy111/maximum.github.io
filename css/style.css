@@ -386,6 +386,26 @@ button.close {
 .image-banner-page {
     margin-bottom: 40px;
 }
+.kmr-icon img {
+    width: 70%;
+}
+.kmr-item {
+    width: 19%;
+    text-align: center;
+}
+.kmr-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.kmr-title {
+    height: 50px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.kmr-text {
+    font-size: 14px;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;
@@ -468,6 +488,13 @@ button.close {
     .mosquito-netting-desk {
         width: 52%;
     }
+    .kmr-block {
+        flex-wrap: wrap;
+    }
+    .kmr-item {
+        width: 33%;
+        margin-bottom: 30px;
+    }
 }
 @media(max-width: 469px) {
     .header-btn {
@@ -507,5 +534,8 @@ button.close {
     }
     .galery-item {
         width: 100%;
+    }
+    .kmr-item {
+        width: 48%;
     }
 }

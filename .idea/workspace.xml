@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9365d0d-5b9f-485c-8cad-4103edb04162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/balkon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balkon2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balkon3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balkon4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balkon5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balkon6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
-    </list>
+    <list default="true" id="c9365d0d-5b9f-485c-8cad-4103edb04162" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="135" />
     <option name="y" value="116" />
     <option name="width" value="1513" />
@@ -239,16 +231,15 @@
       <workItem from="1566886534418" duration="126000" />
       <workItem from="1566890912746" duration="11458000" />
       <workItem from="1566981803682" duration="2044000" />
-      <workItem from="1566991922909" duration="6877000" />
+      <workItem from="1566991922909" duration="7499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64092000" />
+    <option name="totallyTimeSpent" value="64714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="116" width="1513" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25359836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -406,6 +406,14 @@ button.close {
 .kmr-text {
     font-size: 14px;
 }
+.video-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.video-block-item {
+    width: 48%;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;
@@ -494,6 +502,9 @@ button.close {
     .kmr-item {
         width: 33%;
         margin-bottom: 30px;
+    }
+    .video-block-item {
+        width: 100%;
     }
 }
 @media(max-width: 469px) {

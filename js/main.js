@@ -52,3 +52,23 @@ owl.owlCarousel({
     autoplayTimeout:3000,
     autoplayHoverPause:true
 });
+
+
+var itemsCount=3;
+if (window.matchMedia("(max-width: 991px)").matches) {
+    itemsCount=2;
+}
+if (window.matchMedia("(max-width: 500px)").matches) {
+    itemsCount=1;
+}
+var owl = $('.owl-blinds');
+owl.owlCarousel({
+    items:itemsCount,
+    loop:true,
+    margin:0,
+    nav:true,
+    dots: false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});

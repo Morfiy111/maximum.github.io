@@ -415,6 +415,12 @@ button.close {
 .video-block-item {
     width: 48%;
 }
+.owl-blinds-item {
+    padding: 5px;
+}
+.owl-blinds {
+    margin-bottom: 40px;
+}
 @media (min-width: 768px){
     .navbar-nav {
         display: flex;
